@@ -1,0 +1,45 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+body{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.grid{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 1px dashed white;
+    margin-top: 50px;
+    margin: 50px auto;
+
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino{
+    background-color: blue;
+}
+
+.mini-grid{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+}
